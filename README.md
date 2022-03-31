@@ -1,8 +1,9 @@
 ![Django_logo svg](https://user-images.githubusercontent.com/93688655/161108516-affcda3e-35ed-4c83-9d18-197e7fdae9c3.png)
 # Django Site Portfolio
 
-** Django == 4.0.3 **
-** Python == 3.10.2** 
+**Django == 4.0.3**
+
+**Python == 3.10.2** 
 
 ## Commands
 Create venv and install Django.
