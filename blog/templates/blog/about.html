@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+{% block content%}
+<main class="px-3">
+  <h1>О сайте.</h1>
+  <p class="lead">Данный сайт был сделан на фреймворк Django,а также Python,SQL. В проэкте задействаванно 2 таблицы БД связанные ForeignKey. Обработанна ошибка - 404. Переход статьи через slug (get_absolute_url).</p>
+  <li>
+    <p class="lead">Django == 4.0.3</p>
+    <p class="lead">Python == 3.10.2</p>
+  </li>
+  <p class="lead">
+    <a href="https://github.com/alekseyiovchev" class="btn btn-lg btn-secondary fw-bold border-white bg-white">GitHub</a>
+  </p>
+</main>
+{% endblock content %}

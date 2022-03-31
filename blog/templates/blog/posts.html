@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+
+{% block content%}
+
+<main class="px-3">
+  <h1>{{post.title}}</h1>
+
+{% if post.photo %}
+<p><img src="{{post.photo.url}}" width="250" height="140" alt="{{p.title}}"></p>
+{% endif %}
+
+  <p class="lead">{{post.content|truncatewords:50}}</p>
+  <p class="lead">
+    <a href="{{ post.wiki }}" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Wikipedia - {{ post.title }}</a>
+  </p>
+</main>
+
+{% endblock content %}

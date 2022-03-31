@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content%}
+<main class="px-3">
+  <h1>Мой Stack.</h1>
+  <p><img src="{% static 'blog/images/stack.png' %}" width="80" height="80" alt="{{p.title}}"></p>
+  <p class="lead">Приветствую! На данном сайте отображенны технологии, которые я изучил, а также изучаю на данный момент.</p>
+  <p class="lead">
+    <a href="{% url 'done'%}" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Stack сейчас</a>
+  </p>
+</main>
+{% endblock content %}
